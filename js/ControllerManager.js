@@ -258,7 +258,7 @@ app.factory('controllerManager', function($mdDialog, $firebaseArray, sessionServ
 		scope.showLoginDialog = function(ev) {
 			$mdDialog.show({
 				controller : DialogController,
-				templateUrl : 'login.html',
+				templateUrl : './html/login.html',
 				parent : angular.element(document.body),
 				targetEvent : ev,
 				clickOutsideToClose : true
